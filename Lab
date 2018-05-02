@@ -1,0 +1,29 @@
+
+#! /bin/bash
+read -p "I would encourage you to take Linux class and learn from the book How Linux Works"
+
+
+read "Hello Class and Welcome"
+
+echo "This is the TCPDump Lab Activity!"
+
+echo "TCPDump tricks can provide us with."
+
+echo -e "\nLets run it using -i any to just get a quick look at any interface."
+tcpdump -i any
+
+echo -e "\nTCPDump provides many command lines to demonstrate types of output. Another skill is  -ttttnnvvS uses readable time-stamps, does not resove host names OR port numbers, in very verbose mode, and shows absolute sequence numbers."  
+sketch 3
+
+cho "-c, checksumm"
+
+echo "-b, backup"
+
+echo "-u, update"
+
+tcpdump -ttttnnvvS
+
+echo -e "\nlet by looking at what host on other hosts, like router"
+
+tcpdump ip address  192.168.1.0
+
